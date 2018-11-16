@@ -1,0 +1,40 @@
+*{
+	margin :0;
+	padding: 0;
+}
+body,html{
+	width: 100%;
+	height:100%;
+	background: url(https://wallpapertag.com/wallpaper/full/4/8/f/132232-free-download-4k-resolution-wallpaper-3840x2160.jpg)no-repeat;
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	background: #45aaf280;
+}
+.container h1{
+	color: white;
+	font-size: 60px;
+	font-weight: 900;
+	text-transform: uppercase;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.container h1 span{
+	display: block;
+	background: #2ecc71;
+	padding : 0 10px;
+}
+.time {
+	color: white;
+	font-weight: 500;
+	text-transform: uppercase;
+	position: absolute;
+	top: 63%;
+	left: 40%;
+	transform: translate(0%,0%);
+}
